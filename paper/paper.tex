@@ -1,0 +1,78 @@
+\documentclass[12pt,oneside]{paper}
+
+\usepackage{listings}
+\renewcommand{\lstlistingname}{saucecode}
+
+\lstset{%
+  language={C},
+  basicstyle={\small},%
+  identifierstyle={\small},%
+  commentstyle={\small\itshape},%
+  keywordstyle={\small\bfseries},%
+  ndkeywordstyle={\small},%
+  stringstyle={\small\ttfamily},
+  frame={tb},
+  breaklines=true,
+  columns=[l]{fullflexible},%
+  numbers=left,%
+  xrightmargin=0zw,%
+  xleftmargin=3zw,%
+  numberstyle={\scriptsize},%
+  stepnumber=1,
+  numbersep=1zw,%
+  lineskip=-0.5ex%
+}
+
+
+
+% タイトル
+\title{１軸レーザー距離センサを用いたQudad Rotorの周辺認識についての研究}
+\author{高倉啓祐・中野晋}
+
+\begin{document}
+% 行間
+\setlength{\baselineskip}{9truemm}
+
+%文字間
+\kanjiskip=.53zw plus 3pt minus 3pt
+\xkanjiskip=.53zw plus 3pt minus 3pt
+
+% 目次
+\tableofcontents
+%\newpage
+
+% 本文
+\input{1_hazimeni.tex}
+
+\input{2_robokon.tex}
+
+\input{3_2Dflame.tex}
+
+\input{4_3Dflame.tex}
+
+\input{5_magesiken.tex}
+
+\input{6_matome.tex}
+
+\input{7_sankou.tex}
+
+
+
+
+
+\chapter*{謝辞}
+\addcontentsline{toc}{chapter}{謝辞}
+本論文作成にあたり研究の考え方,方法のまとめ方など長期にわたって熱意のあるご指導,ご鞭撻していただいた,伊藤恒平教授に厚く御礼申し上げます．
+
+特に制御においても論文の書き方においても論文を何度も読んでいただき,指導していただいた伊藤恒平教授,に大変ご苦労をかけてしまいましたことにも心よりお詫び申し上げます．
+
+その他,助けていただいた多くの皆様に心から感謝しております.ありがとうございました．
+
+
+\end{document}
+
+
+
+
+
+
